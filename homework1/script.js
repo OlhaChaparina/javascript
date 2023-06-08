@@ -26,7 +26,7 @@ console.log(`Решта, якщо клієнт платить 500: ${residual500
 const middleprice = ( sumproducts/3 ).toFixed(2);
 console.log( `Середнє арифметичне заокруглене до двох знаків: ${middleprice}`);
 
-const randomsale = (Math.random().toFixed(1))*100; //рандомна знижка
+const randomsale = (Math.random().toFixed(2))*100; //рандомна знижка
 const pricesale = (sumproducts - (sumproducts * randomsale / 100)).toFixed(2); //округлена сума до оплати зі знижкою
 
 const profit = ((sumproducts / 2) - (randomsale * sumproducts)/100).toFixed(2); //прибуток

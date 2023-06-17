@@ -4,7 +4,7 @@ while (isNaN(N) || !Number.isInteger(N)) {
 }
 
 let M = parseInt(prompt("Введіть число M:"));
-while (isNaN(M) || !Number.isInteger(M) ) {
+while (isNaN(M) || !Number.isInteger(M) || M <= N ) {
   M = parseInt(
     prompt("Некоректне значення. Введіть ціле число M :")
   );
